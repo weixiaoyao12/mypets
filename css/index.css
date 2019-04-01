@@ -1,0 +1,80 @@
+*{margin:0;padding:0;}
+
+body{height:2000px;}
+#toTop{
+  position:fixed;
+  bottom:100px;
+  right:0;
+  display:none;
+}
+.toTop{
+  width:50px;height:50px;
+  background:#fff;
+}
+.my_small{font-size:12px;}
+#banner{margin-top:-0.4rem;}
+
+/* .border-bottom{
+  border-bottom:5px solid #40260C !important;
+  box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.4) !important;
+} */
+div.text{
+  padding-top:5rem;
+}
+
+/* 图片动画 */
+.before{
+  backface-visibility:hidden;
+  transition:all 1s;
+  transform-style: preserve-3d;
+  position: absolute;
+}
+.after{
+  position:relative;
+  backface-visibility:hidden;
+  transform:rotateY(180deg);
+  transition: all 1s;
+  background:#E89E1A;
+  width:270px;height:405px;
+  transform-style: preserve-3d;
+}
+
+div.tp:hover .before{
+  transform:rotateY(180deg);
+}
+div.tp:hover .after{
+  transform:rotateY(0deg);
+}
+
+#pill1,#pill2,#pill3,#pill4{
+  display:none;
+}
+#pill1:target,#pill2:target,#pill3:target,#pill4:target{
+  display:block;
+}
+ul>li a:hover{
+    text-decoration:none;
+}
+
+.container>h1{
+  font-family:Segoe Print;
+}
+.container h2{
+  font-family:Segoe Print;
+}
+div>h4{
+  font-family:华文新魏;
+}
+a{
+  text-decoration:none;
+  color:#E89E1A;
+}
+a:hover{
+  color:#fff;
+  text-decoration:none;
+}
+#banner{
+  border-bottom:5px solid #40260C;
+  box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.3);
+  border-top:4px solid #40260C;
+}

@@ -1,0 +1,42 @@
+.bg{
+  background:url("../html/images/bg.jpg");
+  background-size:cover;
+}
+.col_bg{
+  opacity:0.8;
+}
+.a_hover:hover{
+  color:#fff;
+}
+.img_size{
+  max-width:100%;
+}
+
+.content{
+  background:url("../html/images/bg2.jpg");
+  background-size:cover;
+}
+
+.tu{
+  border-radius:50%;
+}
+
+.text{
+  border:2px solid #fff;
+  background:rgba(239, 236, 236, 0.1);
+  padding:2rem;
+}
+
+.call:hover{
+  transform: scale(0.8);
+}
+.img_big:hover{
+  transform:scale(1.1);
+}
+.submit:hover{
+  background:#01a1ed;
+  border:0;
+}
+.font_style{
+  font-family: Segoe Print;
+}

@@ -1,0 +1,50 @@
+*{margin:0;padding:0};
+
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.btn_bg{
+  background:#1a130d;
+}
+
+.btn_bg:hover{background:#40260C;}
+
+.clear{
+  clear:right;
+}
+
+.front{
+  float: left;
+}
+.behind{
+  width:540px;
+  height:401px;
+  position: absolute;
+  background:#000;
+  opacity:0.6;
+  display:none;
+}
+.parent:hover .behind{
+  display:block;
+  z-index:1;
+}
+.img{
+  position:absolute;
+  top:45%;
+  left:40%;
+  display:block;
+}
+.img1{
+  position: absolute;
+  top:45%;
+  right:40%;
+}
+
+.li_a:hover{
+  background:#fff;
+}
+.max_width{
+  max-width:100%;
+}
+
+/* 媒体查询 */
+

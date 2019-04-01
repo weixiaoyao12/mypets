@@ -1,0 +1,10 @@
+.btn{
+  background:#883E00 !important;
+}
+
+.submit{
+  width:10%;
+}
+.submit:hover{
+  background:#f00;
+}
